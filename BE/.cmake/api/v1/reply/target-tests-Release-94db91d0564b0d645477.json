@@ -1,0 +1,111 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"unit_tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "partitioner-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "customizer-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "library-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "extractor-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "storage-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "updater-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "library-extract-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "engine-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "contractor-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "library-contract-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "server-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "library-partition-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "util-tests::@2bb15649ce016d6c8322"
+		},
+		{
+			"id" : "library-customize-tests::@2bb15649ce016d6c8322"
+		}
+	],
+	"id" : "tests::@2bb15649ce016d6c8322",
+	"name" : "tests",
+	"paths" : 
+	{
+		"build" : "unit_tests",
+		"source" : "unit_tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/unit_tests/CMakeFiles/tests",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/unit_tests/CMakeFiles/tests.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

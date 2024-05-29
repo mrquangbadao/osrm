@@ -1,0 +1,144 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third_party/flatbuffers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 388,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 412,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 425,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"third_party/flatbuffers/include/flatbuffers"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/flatbuffers",
+			"paths" : 
+			[
+				"third_party/flatbuffers/CMake/FlatbuffersConfig.cmake",
+				"out/build/x64-Debug/flatbuffers-build/FlatbuffersConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"flatbuffers-build/flatbuffers.lib"
+			],
+			"targetId" : "flatbuffers::@bea912407e3719a83c7d",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/flatbuffers",
+			"exportName" : "FlatbuffersTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "flatbuffers::@bea912407e3719a83c7d",
+					"index" : 18
+				}
+			],
+			"paths" : 
+			[
+				"flatbuffers-build/CMakeFiles/Export/71b83468706c459fb1a02b1113714617/FlatbuffersTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"flatbuffers-build/flatc.exe"
+			],
+			"targetId" : "flatc::@bea912407e3719a83c7d",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/flatbuffers",
+			"exportName" : "FlatcTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "flatc::@bea912407e3719a83c7d",
+					"index" : 19
+				}
+			],
+			"paths" : 
+			[
+				"flatbuffers-build/CMakeFiles/Export/71b83468706c459fb1a02b1113714617/FlatcTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "flatbuffers-build",
+		"source" : "third_party/flatbuffers"
+	}
+}

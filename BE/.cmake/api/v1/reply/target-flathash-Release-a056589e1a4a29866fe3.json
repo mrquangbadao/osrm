@@ -1,0 +1,265 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "flatbuffers-build/flathash.exe"
+		},
+		{
+			"path" : "flatbuffers-build/flathash.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"D:/IDE/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"third_party/flatbuffers/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 122,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 121,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 270,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 123,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 288,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 291,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 299,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 307,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc -Wall /bigobj /DWIN32_LEAN_AND_MEAN /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "FLATBUFFERS_LOCALE_INDEPENDENT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OSRM_PROJECT_DIR=\"D:/work/osmr/osrm-backend\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/work/osmr/osrm-backend/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/work/osmr/osrm-backend/out/build/x64-Debug/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/work/osmr/osrm-backend/third_party/flatbuffers/grpc"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/sol2-3.3.0/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/variant/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/rapidjson/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/microtar/src"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/protozero/include"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/vtzero/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "D:/work/osmr/osrm-backend/third_party/flatbuffers/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "flathash::@bea912407e3719a83c7d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc -Wall /bigobj /DWIN32_LEAN_AND_MEAN /O2 /Ob2 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "flathash",
+	"nameOnDisk" : "flathash.exe",
+	"paths" : 
+	{
+		"build" : "flatbuffers-build",
+		"source" : "third_party/flatbuffers"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "third_party/flatbuffers/include/flatbuffers/hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/flatbuffers/src/flathash.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

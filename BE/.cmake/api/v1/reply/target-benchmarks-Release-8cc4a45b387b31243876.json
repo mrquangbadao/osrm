@@ -1,0 +1,87 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"src/benchmarks/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "match-bench::@bc9f1f5460cdfbf7b6e6"
+		},
+		{
+			"id" : "route-bench::@bc9f1f5460cdfbf7b6e6"
+		},
+		{
+			"id" : "rtree-bench::@bc9f1f5460cdfbf7b6e6"
+		},
+		{
+			"id" : "json-render-bench::@bc9f1f5460cdfbf7b6e6"
+		},
+		{
+			"id" : "alias-bench::@bc9f1f5460cdfbf7b6e6"
+		},
+		{
+			"id" : "packedvector-bench::@bc9f1f5460cdfbf7b6e6"
+		}
+	],
+	"id" : "benchmarks::@bc9f1f5460cdfbf7b6e6",
+	"name" : "benchmarks",
+	"paths" : 
+	{
+		"build" : "src/benchmarks",
+		"source" : "src/benchmarks"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/benchmarks/CMakeFiles/benchmarks",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/benchmarks/CMakeFiles/benchmarks.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

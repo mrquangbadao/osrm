@@ -1,0 +1,751 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 579,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 621,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 622,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 623,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 624,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 625,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 626,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 627,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 628,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 630,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 631,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 632,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 633,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 634,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 635,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 636,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 638,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 641,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 642,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 643,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 644,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 646,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 647,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 652,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 656,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-components.exe"
+			],
+			"targetId" : "osrm-components::@6890427a1f51a3e7e1df",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-components::@6890427a1f51a3e7e1df",
+				"index" : 29
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/engine",
+			"paths" : 
+			[
+				"include/engine/status.hpp",
+				"include/engine/engine_config.hpp",
+				"include/engine/hint.hpp",
+				"include/engine/bearing.hpp",
+				"include/engine/approach.hpp",
+				"include/engine/phantom_node.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/util",
+			"paths" : 
+			[
+				"include/util/coordinate.hpp",
+				"include/util/json_container.hpp",
+				"include/util/typedefs.hpp",
+				"include/util/alias.hpp",
+				"include/util/exception.hpp",
+				"include/util/bearing.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/storage",
+			"paths" : 
+			[
+				"include/storage/storage.hpp",
+				"include/storage/io_config.hpp",
+				"include/storage/storage_config.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/extractor",
+			"paths" : 
+			[
+				"include/extractor/extractor.hpp",
+				"include/storage/io_config.hpp",
+				"include/extractor/extractor_config.hpp",
+				"include/extractor/travel_mode.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/partitioner",
+			"paths" : 
+			[
+				"include/partitioner/partitioner.hpp",
+				"include/partitioner/partitioner_config.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/contractor",
+			"paths" : 
+			[
+				"include/contractor/contractor.hpp",
+				"include/contractor/contractor_config.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/osrm",
+			"paths" : 
+			[
+				"include/osrm/approach.hpp",
+				"include/osrm/bearing.hpp",
+				"include/osrm/contractor.hpp",
+				"include/osrm/contractor_config.hpp",
+				"include/osrm/coordinate.hpp",
+				"include/osrm/customizer.hpp",
+				"include/osrm/customizer_config.hpp",
+				"include/osrm/datasets.hpp",
+				"include/osrm/engine_config.hpp",
+				"include/osrm/error_codes.hpp",
+				"include/osrm/exception.hpp",
+				"include/osrm/extractor.hpp",
+				"include/osrm/extractor_config.hpp",
+				"include/osrm/json_container.hpp",
+				"include/osrm/match_parameters.hpp",
+				"include/osrm/nearest_parameters.hpp",
+				"include/osrm/osrm.hpp",
+				"include/osrm/osrm_fwd.hpp",
+				"include/osrm/partitioner.hpp",
+				"include/osrm/partitioner_config.hpp",
+				"include/osrm/route_parameters.hpp",
+				"include/osrm/status.hpp",
+				"include/osrm/storage_config.hpp",
+				"include/osrm/table_parameters.hpp",
+				"include/osrm/tile_parameters.hpp",
+				"include/osrm/trip_parameters.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/engine/api",
+			"paths" : 
+			[
+				"include/engine/api/base_parameters.hpp",
+				"include/engine/api/match_parameters.hpp",
+				"include/engine/api/nearest_parameters.hpp",
+				"include/engine/api/route_parameters.hpp",
+				"include/engine/api/table_parameters.hpp",
+				"include/engine/api/tile_parameters.hpp",
+				"include/engine/api/trip_parameters.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/osrm/engine/api",
+			"paths" : 
+			[
+				"include/engine/api/base_result.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/mapbox",
+			"paths" : 
+			[
+				"third_party/variant/include/mapbox/optional.hpp",
+				"third_party/variant/include/mapbox/recursive_wrapper.hpp",
+				"third_party/variant/include/mapbox/variant.hpp",
+				"third_party/variant/include/mapbox/variant_io.hpp",
+				"third_party/variant/include/mapbox/variant_visitor.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/flatbuffers",
+			"paths" : 
+			[
+				"third_party/flatbuffers/include/flatbuffers/base.h",
+				"third_party/flatbuffers/include/flatbuffers/code_generators.h",
+				"third_party/flatbuffers/include/flatbuffers/flatbuffers.h",
+				"third_party/flatbuffers/include/flatbuffers/flatc.h",
+				"third_party/flatbuffers/include/flatbuffers/flexbuffers.h",
+				"third_party/flatbuffers/include/flatbuffers/grpc.h",
+				"third_party/flatbuffers/include/flatbuffers/hash.h",
+				"third_party/flatbuffers/include/flatbuffers/idl.h",
+				"third_party/flatbuffers/include/flatbuffers/minireflect.h",
+				"third_party/flatbuffers/include/flatbuffers/reflection.h",
+				"third_party/flatbuffers/include/flatbuffers/reflection_generated.h",
+				"third_party/flatbuffers/include/flatbuffers/registry.h",
+				"third_party/flatbuffers/include/flatbuffers/stl_emulation.h",
+				"third_party/flatbuffers/include/flatbuffers/util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-extract.exe"
+			],
+			"targetId" : "osrm-extract::@6890427a1f51a3e7e1df",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-extract::@6890427a1f51a3e7e1df",
+				"index" : 33
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-partition.exe"
+			],
+			"targetId" : "osrm-partition::@6890427a1f51a3e7e1df",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-partition::@6890427a1f51a3e7e1df",
+				"index" : 34
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-customize.exe"
+			],
+			"targetId" : "osrm-customize::@6890427a1f51a3e7e1df",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-customize::@6890427a1f51a3e7e1df",
+				"index" : 31
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-contract.exe"
+			],
+			"targetId" : "osrm-contract::@6890427a1f51a3e7e1df",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-contract::@6890427a1f51a3e7e1df",
+				"index" : 30
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-datastore.exe"
+			],
+			"targetId" : "osrm-datastore::@6890427a1f51a3e7e1df",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-datastore::@6890427a1f51a3e7e1df",
+				"index" : 32
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"osrm-routed.exe"
+			],
+			"targetId" : "osrm-routed::@6890427a1f51a3e7e1df",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm-routed::@6890427a1f51a3e7e1df",
+				"index" : 35
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm.lib"
+			],
+			"targetId" : "osrm::@6890427a1f51a3e7e1df",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm::@6890427a1f51a3e7e1df",
+				"index" : 28
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_extract.lib"
+			],
+			"targetId" : "osrm_extract::@6890427a1f51a3e7e1df",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_extract::@6890427a1f51a3e7e1df",
+				"index" : 38
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_partition.lib"
+			],
+			"targetId" : "osrm_partition::@6890427a1f51a3e7e1df",
+			"targetIndex" : 40,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_partition::@6890427a1f51a3e7e1df",
+				"index" : 40
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_customize.lib"
+			],
+			"targetId" : "osrm_customize::@6890427a1f51a3e7e1df",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_customize::@6890427a1f51a3e7e1df",
+				"index" : 37
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_update.lib"
+			],
+			"targetId" : "osrm_update::@6890427a1f51a3e7e1df",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_update::@6890427a1f51a3e7e1df",
+				"index" : 42
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_contract.lib"
+			],
+			"targetId" : "osrm_contract::@6890427a1f51a3e7e1df",
+			"targetIndex" : 36,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_contract::@6890427a1f51a3e7e1df",
+				"index" : 36
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_store.lib"
+			],
+			"targetId" : "osrm_store::@6890427a1f51a3e7e1df",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_store::@6890427a1f51a3e7e1df",
+				"index" : 41
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"osrm_guidance.lib"
+			],
+			"targetId" : "osrm_guidance::@6890427a1f51a3e7e1df",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "osrm_guidance::@6890427a1f51a3e7e1df",
+				"index" : 39
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/osrm",
+			"paths" : 
+			[
+				"profiles"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/osrm",
+			"paths" : 
+			[
+				"data"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "D:/work/osmr/osrm-backend/out/install/x64-Debug/lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libosrm.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
